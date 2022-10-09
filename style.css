@@ -1,0 +1,181 @@
+* { margin: 0; padding: 0; }
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.container{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ 
+}
+
+.header-hero{
+  display: flex;
+  flex-direction: column;
+  background-color: #1F2937;
+  gap: 40px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 150px;
+  margin-top: 20px;
+}
+
+.hero{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #f9faf8;
+  height: 400px;
+}
+
+.hero-left{
+  width: 400px;
+  
+}
+.hero-left h1{
+  padding-bottom: 10px;
+}
+.hero-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:500px;
+  height: 200px;
+  background-color: hwb(0 50% 49%);
+}
+
+
+
+.header p{
+    font-size: 24px;
+    color: #f9faf8;
+
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #f9faf8;
+  margin: 0 15px;
+}
+.box{
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+
+.hero h1{
+  font-size:48px;
+  font-weight:bolder;
+  margin-bottom: 0px;
+}
+.hero p{
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+
+.random-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.random-info h1{
+  font-size: 36px;
+  font-weight: bold;
+  color: #1F2937;
+  padding: 50px;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.cards p{
+  width: 150px;
+  height: 100px;
+}
+
+.quotes{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: #1F2937;
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-weight:300;
+  font-style: italic;
+  height: 400px;
+ 
+}
+.testimonial{
+  width: 43%;
+  
+}
+.quote{
+ display: flex;
+ justify-content: flex-end;
+}
+
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  color: #fff;
+  height: 70px;
+}
+
+button{
+  background-color:#3882f6;
+  color: #fff;
+  padding: 6px 30px;
+  border-radius: 7px;
+  border-style: none;
+}
+
+#button-bottom{
+  border: 1px solid #fff;
+}
+
+.call-to-action-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.call-to-action{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  background-color: #3882f6;
+  height: 200px;
+  color: #fff;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.call-to-action-text h1{
+  font-size: 36px;
+  
+}
+
